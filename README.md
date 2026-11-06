@@ -3,18 +3,23 @@
 
 # Bloom & Co — Case Study
 
-> **Live site:** [bloom-co-xi.vercel.app](https://bloom-co-xi.vercel.app)
+> **Deployed site:** [bloom-co-xi.vercel.app](https://bloom-co-xi.vercel.app)
+>
+> **Status:** deployed on Vercel; the full order → payment → webhook → email
+> flow is verified end to end against Mercado Pago's sandbox. Commercial
+> launch is pending production payment credentials and the client's real
+> product photos and reviews.
 
 This is a case study. The source code is private, owned by the client, and
 not published here. What follows is the business problem, the architecture,
-and the design decisions behind a real, production e-commerce site for a
+and the design decisions behind a real, deployed e-commerce site for a
 boutique flower shop in Querétaro, Mexico.
 
 ## TL;DR
 
-- A two-person floral business that sold exclusively through manual chat
-  messages moved to a self-service storefront with a real checkout and
-  online payments.
+- A storefront with a real checkout and online payments, built for a
+  two-person floral business that sells exclusively through manual chat
+  messages.
 - Stack: Next.js (App Router), TypeScript, Tailwind CSS, a headless CMS
   (catalog), a relational database (orders), and a hosted payment processor
   (Checkout Pro, redirect flow) — deployed on Vercel.
@@ -148,7 +153,7 @@ the wrong tool for how this segment of customers actually buys.
 
 ## Screenshots
 
-Desktop and mobile views of the production site — home, catalog, and an
+Desktop and mobile views of the deployed site — home, catalog, and an
 individual arrangement page. All photography is placeholder art; the
 client had not yet supplied real product photos at the time of writing.
 

@@ -3,18 +3,23 @@
 
 # Bloom & Co — Case Study
 
-> **Sitio en producción:** [bloom-co-xi.vercel.app](https://bloom-co-xi.vercel.app)
+> **Sitio desplegado:** [bloom-co-xi.vercel.app](https://bloom-co-xi.vercel.app)
+>
+> **Estado:** desplegado en Vercel; el flujo completo pedido → pago → webhook →
+> correo está verificado de punta a punta contra el sandbox de Mercado Pago.
+> El lanzamiento comercial queda pendiente de credenciales de pago de
+> producción y de las fotos y reseñas reales de la clienta.
 
 Esto es un case study. El código fuente es privado, pertenece al cliente y
 no se publica aquí. Lo que sigue es el problema de negocio, la arquitectura
-y las decisiones de diseño detrás de un sitio de e-commerce real, en
-producción, para una florería boutique en Querétaro, México.
+y las decisiones de diseño detrás de un sitio de e-commerce real, ya
+desplegado, para una florería boutique en Querétaro, México.
 
 ## TL;DR
 
-- Un negocio de dos personas que vendía exclusivamente por mensajes de chat
-  manuales pasó a una tienda de autoservicio con checkout real y pagos en
-  línea.
+- Una tienda de autoservicio con checkout real y pagos en línea, construida
+  para un negocio de dos personas que vende exclusivamente por mensajes de
+  chat manuales.
 - Stack: Next.js (App Router), TypeScript, Tailwind CSS, un CMS headless
   (catálogo), una base de datos relacional (pedidos) y un procesador de
   pagos hospedado (Checkout Pro, flujo de redirección) — desplegado en
@@ -154,7 +159,7 @@ realmente este segmento de clientas.
 
 ## Capturas
 
-Vistas de escritorio y móvil del sitio en producción — home, catálogo y
+Vistas de escritorio y móvil del sitio desplegado — home, catálogo y
 una página de arreglo individual. Toda la fotografía es un placeholder; al
 momento de escribir esto la clienta todavía no había subido fotos reales
 de producto.

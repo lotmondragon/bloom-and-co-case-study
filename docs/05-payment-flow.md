@@ -37,7 +37,7 @@ verificación en sí.
 (La validación de que esa notificación efectivamente viene del procesador
 de pagos y no de un tercero — la implementación de la firma — es
 deliberadamente el único detalle que no se describe aquí: es superficie
-de seguridad real del sitio en producción.)
+de seguridad real del sitio desplegado.)
 
 ## Qué significa esto para la página de confirmación
 
